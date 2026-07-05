@@ -75,7 +75,7 @@ def _atomic_write_json(path: Path, obj) -> None:
     except BaseException:
         try:
             os.unlink(tmp)
-        except OSError:
+        except OSError:  # pragma: no cover
             pass
 
         raise
@@ -95,7 +95,7 @@ def _ensure_accounts_dir() -> None:
     accounts_dir().mkdir(parents=True, exist_ok=True)
     try:
         os.chmod(accounts_dir(), 0o700)
-    except OSError:
+    except OSError:  # pragma: no cover
         pass
 
 
