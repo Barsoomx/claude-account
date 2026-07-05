@@ -35,3 +35,12 @@ dev = ['pytest>=8', 'pytest-cov>=5']
 
 [tool.hatch.build.targets.wheel]
 packages = ['src/claude_account']
+
+[tool.coverage.run]
+source = ['claude_account']
+
+[tool.coverage.report]
+fail_under = 100
+exclude_also = [
+    'if __name__ == .__main__.:',
+]
