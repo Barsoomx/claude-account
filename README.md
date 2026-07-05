@@ -3,6 +3,8 @@
 [![PyPI](https://img.shields.io/pypi/v/claude-account.svg)](https://pypi.org/project/claude-account/)
 [![Python versions](https://img.shields.io/pypi/pyversions/claude-account.svg)](https://pypi.org/project/claude-account/)
 [![CI](https://github.com/Barsoomx/claude-account/actions/workflows/ci.yml/badge.svg)](https://github.com/Barsoomx/claude-account/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/Barsoomx/claude-account/actions/workflows/codeql.yml/badge.svg)](https://github.com/Barsoomx/claude-account/actions/workflows/codeql.yml)
+[![codecov](https://codecov.io/gh/Barsoomx/claude-account/graph/badge.svg)](https://codecov.io/gh/Barsoomx/claude-account)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 Manually switch between multiple **Claude Code** accounts (e.g. a personal and a
