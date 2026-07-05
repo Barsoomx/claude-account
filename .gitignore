@@ -1,0 +1,15 @@
+# build artifacts
+dist/
+build/
+*.egg-info/
+__pycache__/
+*.pyc
+.venv/
+uv.lock
+.pytest_cache/
+.ruff_cache/
+
+# NEVER commit real Claude credentials / captured slots
+.claude-accounts/
+*.credentials.json
+.last-active.json
