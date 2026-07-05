@@ -89,9 +89,11 @@ written `0600` and `~/.claude-accounts/` is `0700`).
 ## Development
 
 ```bash
-uv run --group dev pytest -q
+uv run --group dev pytest -q --cov=claude_account
 uv build
 ```
+
+[![coverage sunburst](https://codecov.io/gh/Barsoomx/claude-account/graphs/tree.svg?token=0E9LK67P0B)](https://codecov.io/gh/Barsoomx/claude-account)
 
 ## Releasing
 
